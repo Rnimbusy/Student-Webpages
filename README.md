@@ -1,84 +1,106 @@
-# Francisco Diaz – Final Project Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Francisco Diaz – Final Project Portfolio</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      line-height: 1.6;
+      margin: 2em;
+      background-color: #fefefe;
+    }
 
-## 👋 About Me
+    h1, h2, h3 {
+      color: #333;
+    }
 
-When I first started coding, I knew literally nothing. One of the first things that threw me off was binary. It felt like I was learning a new language made of just 0s and 1s, and I couldn’t wrap my head around how that connected to real programs. At first, writing even a basic `if-else` statement felt confusing, and debugging was frustrating because I didn’t always know what I was looking for. 
+    .description {
+      font-size: 1.2em; /* larger font for description text */
+      font-weight: normal;
+      margin-top: 0.3em;
+    }
 
-But over time, with practice, I began to understand the concepts more and more. I got more comfortable using arrays to organize data and started seeing how loops could make code more efficient. Even though I messed up a lot, those mistakes actually helped me learn. One of the hardest parts was figuring out how to break problems down—sometimes I’d stare at a blank screen not even knowing where to start. But after practicing with different challenges and projects, I learned how to plan out my code and think logically.
+    .project {
+      margin-bottom: 2em;
+    }
 
-While I’m not the best programmer, I am very satisfied with the progress I’ve made throughout the year. I’m also very thankful for Mr. Alvarado and the wisdom he shared with us.
+    ul {
+      margin-top: 0.5em;
+    }
 
----
+    a {
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
 
-## 🌐 About the Project & What I Learned
+  <h1>Francisco Diaz – Final Project Portfolio</h1>
 
-This website is a personal portfolio that includes an **About Me** section introducing who I am and what I do, as well as a **Project Gallery** showcasing the projects I’ve built this year. It features a clean and modern design that reflects my personal style, and it includes fully responsive, functional links to live project demos.
+  <h2>👋 About Me</h2>
+  <p>When I first started coding, I knew literally nothing. One of the first things that threw me off was binary. It felt like I was learning a new language made of just 0s and 1s, and I couldn’t wrap my head around how that connected to real programs...</p>
 
-Throughout the year, I’ve learned to:
-- Build and style webpages using HTML, CSS, and JavaScript
-- Debug and enhance interactive features
-- Use version control with Git
-- Deploy websites through GitHub Pages
+  <h2>🌐 About the Project & What I Learned</h2>
+  <p>This website is a personal portfolio that includes an <strong>About Me</strong> section introducing who I am and what I do, as well as a <strong>Project Gallery</strong> showcasing the projects I’ve built this year.</p>
+  <ul>
+    <li>Build and style webpages using HTML, CSS, and JavaScript</li>
+    <li>Debug and enhance interactive features</li>
+    <li>Use version control with Git</li>
+    <li>Deploy websites through GitHub Pages</li>
+  </ul>
 
----
+  <h2>🧭 Overview of Portfolio Site</h2>
+  <ul>
+    <li>An <strong>About Me</strong> section</li>
+    <li>A showcase of <strong>four interactive projects</strong></li>
+    <li>A contact section and clean visual styling</li>
+  </ul>
 
-## 🧭 Overview of Portfolio Site
+  <h2>💻 Featured Projects</h2>
 
-This site includes:
-- An **About Me** section
-- A showcase of **four interactive projects** created throughout the school year
-- A contact section and clean visual styling
+  <div class="project">
+    <h3>1. Flag Game</h3>
+    <p class="description"><strong>Description:</strong> A quiz about flags from around the world that helps users test and improve their flag knowledge while having fun.</p>
+    <p class="description"><strong>Features:</strong> Interactive buttons to select answers with feedback for correct and incorrect responses.</p>
+    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+  </div>
 
----
+  <div class="project">
+    <h3>2. Timeline Fun Facts</h3>
+    <p class="description"><strong>Description:</strong> A timeline of historical facts from different eras and categories that users can explore and learn from.</p>
+    <p class="description"><strong>Features:</strong> Start buttons to choose a timeline, and back/forward buttons for navigation.</p>
+    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+  </div>
 
-## 💻 Featured Projects
+  <div class="project">
+    <h3>3. To-Do List</h3>
+    <p class="description"><strong>Description:</strong> A simple productivity app where users can add and remove tasks to stay organized.</p>
+    <p class="description"><strong>Features:</strong> Interactivity to input, manage, and delete tasks dynamically.</p>
+    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+  </div>
 
-### 1. Flag Game  
-**Description:** A quiz about flags from around the world that helps users test and improve their flag knowledge while having fun.  
-**Features:** Interactive buttons to select answers with feedback for correct and incorrect responses.  
-**Tech Stack:** HTML, CSS, JavaScript
+  <div class="project">
+    <h3>4. Chikawa Run</h3>
+    <p class="description"><strong>Description:</strong> A fun maze game with different randomly generated mazes for users to solve.</p>
+    <p class="description"><strong>Features:</strong> Player movement using arrow keys or WASD controls.</p>
+    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+  </div>
 
----
+  <h2>🔗 Links</h2>
+  <ul>
+    <li><strong>Live Site:</strong> <a href="https://rnimbusy.github.io/Student-Webpages/" target="_blank">https://rnimbusy.github.io/Student-Webpages/</a></li>
+    <li><strong>GitHub Repository:</strong> <a href="https://github.com/yourusername/final-project-portfolio" target="_blank">https://github.com/yourusername/final-project-portfolio</a></li>
+  </ul>
 
-### 2. Timeline Fun Facts  
-**Description:** A timeline of historical facts from different eras and categories that users can explore and learn from.  
-**Features:** Start buttons to choose a timeline, and back/forward buttons for navigation.  
-**Tech Stack:** HTML, CSS, JavaScript
+  <h2>📁 Class Repo Folder</h2>
+  <p>This folder contains:</p>
+  <ul>
+    <li>All project files (HTML, CSS, JS, images)</li>
+    <li>My personal <code>README.md</code> file (this one!)</li>
+  </ul>
 
----
+  <p>Thanks for visiting! 😊</p>
 
-### 3. To-Do List  
-**Description:** A simple productivity app where users can add and remove tasks to stay organized.  
-**Features:** Interactivity to input, manage, and delete tasks dynamically.  
-**Tech Stack:** HTML, CSS, JavaScript
-
----
-
-### 4. Chikawa Run  
-**Description:** A fun maze game with different randomly generated mazes for users to solve.  
-**Features:** Player movement using arrow keys or WASD controls.  
-**Tech Stack:** HTML, CSS, JavaScript
-
----
-
-Each project was built from scratch and reflects a different coding skill I developed this year.
-
----
-
-## 🔗 Links
-
-- **Live Site:** [t https://rnimbusy.github.io/Student-Webpages/)  
-- **GitHub Repository:** [https://github.com/yourusername/final-project-portfolio](https://github.com/yourusername/final-project-portfolio)
-
-in the works
-
----
-
-## 📁 Class Repo Folder
-
-This folder contains:
-- All project files (HTML, CSS, JS, images)
-- My personal `README.md` file (this one!)
-
-Thanks for visiting! 😊
-
+</body>
+</html>
