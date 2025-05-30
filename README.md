@@ -1,132 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Francisco Diaz – Final Project Portfolio</title>
-  <style>
-    body {
-      font-family: "Comic Sans MS", "Comic Sans", cursive;
-      background-color: #fffdf5;
-      color: #222;
-      padding: 2em;
-      line-height: 1.8;
-      font-size: 22px; /* increased overall font size */
-    }
+# Francisco Diaz – Final Project Portfolio
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 0.2em;
-    }
+## 👋 About Me
 
-    h2 {
-      font-size: 30px;
-      margin-top: 1.5em;
-      color: #444;
-    }
+When I first started coding, I knew literally nothing. One of the first things that threw me off was binary. It felt like I was learning a new language made of just 0s and 1s, and I couldn’t wrap my head around how that connected to real programs. At first, writing even a basic if-else statement felt confusing, and debugging was frustrating because I didn’t always know what I was looking for. 
 
-    h3 {
-      font-size: 26px;
-      margin-top: 1.2em;
-    }
+But over time, with practice, I began to understand the concepts more and more. I got more comfortable using arrays to organize data and started seeing how loops could make code more efficient. Even though I messed up a lot, those mistakes actually helped me learn. One of the hardest parts was figuring out how to break problems down—sometimes I’d stare at a blank screen not even knowing where to start. But after practicing with different challenges and projects, I learned how to plan out my code and think logically.
 
-    p, li {
-      margin-top: 0.5em;
-    }
+While I’m not the best programmer, I am very satisfied with the progress I’ve made throughout the year. I’m also very thankful for Mr. Alvarado and the wisdom he shared with us.
 
-    ul {
-      padding-left: 1.5em;
-    }
+---
 
-    .description {
-      font-size: 26px; /* much bigger for emphasis */
-      font-weight: bold;
-      margin: 0.3em 0;
-      color: #333;
-    }
+## 🌐 About the Project & What I Learned
 
-    a {
-      color: #0077cc;
-      text-decoration: none;
-    }
+This website is a personal portfolio that includes an **About Me** section introducing who I am and what I do, as well as a **Project Gallery** showcasing the projects I’ve built this year. It features a clean and modern design that reflects my personal style, and it includes fully responsive, functional links to live project demos.
 
-    a:hover {
-      text-decoration: underline;
-    }
+Throughout the year, I’ve learned to:
+- Build and style webpages using HTML, CSS, and JavaScript
+- Debug and enhance interactive features
+- Use version control with Git
+- Deploy websites through GitHub Pages
 
-    code {
-      background-color: #f3f3f3;
-      padding: 0.2em 0.4em;
-      border-radius: 4px;
-    }
-  </style>
-</head>
-<body>
+---
 
-  <h1>Francisco Diaz – Final Project Portfolio</h1>
+## 🧭 Overview of Portfolio Site
 
-  <h2>👋 About Me</h2>
-  <p>When I first started coding, I knew literally nothing. One of the first things that threw me off was binary... But over time, with practice, I began to understand the concepts more and more...</p>
+This site includes:
+- An **About Me** section
+- A showcase of **four interactive projects** created throughout the school year
+- A contact section and clean visual styling
 
-  <h2>🌐 About the Project & What I Learned</h2>
-  <p>This website is a personal portfolio that includes an <strong>About Me</strong> section and a <strong>Project Gallery</strong> of what I’ve built this year.</p>
-  <ul>
-    <li>Build and style webpages using HTML, CSS, and JavaScript</li>
-    <li>Debug and enhance interactive features</li>
-    <li>Use version control with Git</li>
-    <li>Deploy websites through GitHub Pages</li>
-  </ul>
+---
 
-  <h2>🧭 Overview of Portfolio Site</h2>
-  <ul>
-    <li><strong>About Me</strong> section</li>
-    <li><strong>Four interactive projects</strong></li>
-    <li>Contact info & clean design</li>
-  </ul>
+## 💻 Featured Projects
 
-  <h2>💻 Featured Projects</h2>
+### 1. Flag Game  
+**Description:** A quiz about flags from around the world that helps users test and improve their flag knowledge while having fun.  
+**Features:** Interactive buttons to select answers with feedback for correct and incorrect responses.  
+**Tech Stack:** HTML, CSS, JavaScript
 
-  <div>
-    <h3>1. Flag Game</h3>
-    <p class="description"><strong>Description:</strong> A quiz about flags from around the world.</p>
-    <p class="description"><strong>Features:</strong> Interactive buttons and answer feedback.</p>
-    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-  </div>
+---
 
-  <div>
-    <h3>2. Timeline Fun Facts</h3>
-    <p class="description"><strong>Description:</strong> A timeline of facts from different eras.</p>
-    <p class="description"><strong>Features:</strong> Timeline selection and navigation controls.</p>
-    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-  </div>
+### 2. Timeline Fun Facts  
+**Description:** A timeline of historical facts from different eras and categories that users can explore and learn from.  
+**Features:** Start buttons to choose a timeline, and back/forward buttons for navigation.  
+**Tech Stack:** HTML, CSS, JavaScript
 
-  <div>
-    <h3>3. To-Do List</h3>
-    <p class="description"><strong>Description:</strong> A task manager to add and remove items.</p>
-    <p class="description"><strong>Features:</strong> Dynamic task input and deletion.</p>
-    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-  </div>
+---
 
-  <div>
-    <h3>4. Chikawa Run</h3>
-    <p class="description"><strong>Description:</strong> A maze game with random levels.</p>
-    <p class="description"><strong>Features:</strong> WASD or arrow key movement.</p>
-    <p class="description"><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
-  </div>
+### 3. To-Do List  
+**Description:** A simple productivity app where users can add and remove tasks to stay organized.  
+**Features:** Interactivity to input, manage, and delete tasks dynamically.  
+**Tech Stack:** HTML, CSS, JavaScript
 
-  <h2>🔗 Links</h2>
-  <ul>
-    <li><strong>Live Site:</strong> <a href="https://rnimbusy.github.io/Student-Webpages/" target="_blank">Visit Portfolio</a></li>
-    <li><strong>GitHub Repo:</strong> <a href="https://github.com/yourusername/final-project-portfolio" target="_blank">View on GitHub</a></li>
-  </ul>
+---
 
-  <h2>📁 Class Repo Folder</h2>
-  <p>This folder contains:</p>
-  <ul>
-    <li>All project files (HTML, CSS, JS, images)</li>
-    <li>My personal <code>README.md</code></li>
-  </ul>
+### 4. Chikawa Run  
+**Description:** A fun maze game with different randomly generated mazes for users to solve.  
+**Features:** Player movement using arrow keys or WASD controls.  
+**Tech Stack:** HTML, CSS, JavaScript
 
-  <p>Thanks for visiting! 😊</p>
+---
 
-</body>
-</html>
+Each project was built from scratch and reflects a different coding skill I developed this year.
+
+---
+
+## 🔗 Links
+
+- **Live Site:** [t https://rnimbusy.github.io/Student-Webpages/)  
+- **GitHub Repository:** [https://github.com/yourusername/final-project-portfolio](https://github.com/yourusername/final-project-portfolio)
+
+in the works
+
+---
+
+## 📁 Class Repo Folder
+
+This folder contains:
+- All project files (HTML, CSS, JS, images)
+- My personal README.md file (this one!)
+
+Thanks for visiting! 😊
